@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: aimvector/nodejs:v1
+        image: kiyange26773/helloworld:v4
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
