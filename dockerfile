@@ -8,7 +8,7 @@ RUN npm install -g nodemon
 
 COPY ./src/ /work/src/
 
-ENTRYPOINT [ "nodemon","--inspect=0.0.0.0","./src/server.js" ]
+ENTRYPOINT [ "nodemon","--inspect=0.0.0.0","./src/app.js" ]
 
 FROM node:12.4.0-alpine as prod
 
